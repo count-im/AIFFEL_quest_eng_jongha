@@ -1,0 +1,27 @@
+# 1. 머신러닝 모델 및 대형 데이터 (확장자 기준)
+*.pth
+*.pt
+*.h5
+*.onnx
+*.weights
+*.bin
+*.pkl
+*.dat
+*.bz2
+
+# 2. 데이터셋 폴더
+data/
+datasets/
+
+# 3. 파이썬 가상환경 및 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# 4. OS 관련 로그 및 설정
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
